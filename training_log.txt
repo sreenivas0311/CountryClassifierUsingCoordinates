@@ -1,0 +1,142 @@
+Epoch: 1/5 | Loss: 0.8966
+Epoch: 2/5 | Loss: 0.4907
+Epoch: 3/5 | Loss: 0.4190
+Epoch: 4/5 | Loss: 0.3802
+Epoch: 5/5 | Loss: 0.3534
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.3344
+Epoch: 2/5 | Loss: 0.3198
+Epoch: 3/5 | Loss: 0.3083
+Epoch: 4/5 | Loss: 0.2990
+Epoch: 5/5 | Loss: 0.2896
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.2826
+Epoch: 2/5 | Loss: 0.2759
+Epoch: 3/5 | Loss: 0.2703
+Epoch: 4/5 | Loss: 0.2660
+Epoch: 5/5 | Loss: 0.2613
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.2576
+Epoch: 2/5 | Loss: 0.2531
+Epoch: 3/5 | Loss: 0.2498
+Epoch: 4/5 | Loss: 0.2470
+Epoch: 5/5 | Loss: 0.2445
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.2412
+Epoch: 2/5 | Loss: 0.2392
+Epoch: 3/5 | Loss: 0.2364
+Epoch: 4/5 | Loss: 0.2344
+Epoch: 5/5 | Loss: 0.2342
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.2331
+Epoch: 2/5 | Loss: 0.2312
+Epoch: 3/5 | Loss: 0.2286
+Epoch: 4/5 | Loss: 0.2268
+Epoch: 5/5 | Loss: 0.2250
+Checkpoint Saved
+
+Epoch: 1/5 | Loss: 0.2227
+Epoch: 2/5 | Loss: 0.2219
+Epoch: 3/5 | Loss: 0.2193
+Epoch: 4/5 | Loss: 0.2182
+Epoch: 5/5 | Loss: 0.2169
+Checkpoint Saved
+
+Epoch: 1/15 | Loss: 0.2151
+Epoch: 2/15 | Loss: 0.2143
+Epoch: 3/15 | Loss: 0.2119
+Epoch: 4/15 | Loss: 0.2114
+Epoch: 5/15 | Loss: 0.2103
+Epoch: 6/15 | Loss: 0.2095
+Epoch: 7/15 | Loss: 0.2074
+Epoch: 8/15 | Loss: 0.2073
+Epoch: 9/15 | Loss: 0.2055
+Epoch: 10/15 | Loss: 0.2046
+Epoch: 11/15 | Loss: 0.2036
+Epoch: 12/15 | Loss: 0.2034
+Epoch: 13/15 | Loss: 0.2021
+Epoch: 14/15 | Loss: 0.2015
+Epoch: 15/15 | Loss: 0.2007
+Checkpoint Saved
+
+Epoch: 1/15 | Loss: 0.1999
+Epoch: 2/15 | Loss: 0.1997
+Epoch: 3/15 | Loss: 0.1982
+Epoch: 4/15 | Loss: 0.1980
+Epoch: 5/15 | Loss: 0.1972
+Epoch: 6/15 | Loss: 0.1968
+Epoch: 7/15 | Loss: 0.1954
+Epoch: 8/15 | Loss: 0.1951
+Epoch: 9/15 | Loss: 0.1939
+Epoch: 10/15 | Loss: 0.1935
+Epoch: 11/15 | Loss: 0.1933
+Epoch: 12/15 | Loss: 0.1926
+Epoch: 13/15 | Loss: 0.1917
+Epoch: 14/15 | Loss: 0.1913
+Epoch: 15/15 | Loss: 0.1905
+Checkpoint Saved
+
+Epoch: 1/15 | Loss: 0.1893
+Epoch: 2/15 | Loss: 0.1894
+Epoch: 3/15 | Loss: 0.1886
+Epoch: 4/15 | Loss: 0.1889
+Epoch: 5/15 | Loss: 0.1875
+Epoch: 6/15 | Loss: 0.1877
+Epoch: 7/15 | Loss: 0.1865
+Epoch: 8/15 | Loss: 0.1866
+Epoch: 9/15 | Loss: 0.1854
+Epoch: 10/15 | Loss: 0.1853
+Epoch: 11/15 | Loss: 0.1846
+Epoch: 12/15 | Loss: 0.1846
+Epoch: 13/15 | Loss: 0.1838
+Epoch: 14/15 | Loss: 0.1834
+Epoch: 15/15 | Loss: 0.1825
+Checkpoint Saved
+
+Epoch: 1/20 | Loss: 0.1820
+Epoch: 2/20 | Loss: 0.1824
+Epoch: 4/20 | Loss: 0.1813
+Epoch: 6/20 | Loss: 0.1804
+Epoch: 8/20 | Loss: 0.1795
+Epoch: 10/20 | Loss: 0.1785
+Epoch: 12/20 | Loss: 0.1783
+Epoch: 14/20 | Loss: 0.1775
+Epoch: 16/20 | Loss: 0.1769
+Epoch: 18/20 | Loss: 0.1759
+Epoch: 20/20 | Loss: 0.1754
+Checkpoint Saved
+
+Epoch: 1/20 | Loss: 0.1748
+Epoch: 2/20 | Loss: 0.1748
+Epoch: 4/20 | Loss: 0.1745
+Epoch: 6/20 | Loss: 0.1734
+Epoch: 8/20 | Loss: 0.1731
+Epoch: 10/20 | Loss: 0.1720
+Epoch: 12/20 | Loss: 0.1718
+Epoch: 14/20 | Loss: 0.1712
+Epoch: 16/20 | Loss: 0.1707
+Epoch: 18/20 | Loss: 0.1698
+Epoch: 20/20 | Loss: 0.1693
+Checkpoint Saved
+
+Epoch: 1/30 | Loss: 0.1689
+Epoch: 3/30 | Loss: 0.1682
+Epoch: 6/30 | Loss: 0.1679
+Epoch: 9/30 | Loss: 0.1672
+Epoch: 12/30 | Loss: 0.1668
+Epoch: 15/30 | Loss: 0.1654
+Epoch: 18/30 | Loss: 0.1653
+Epoch: 21/30 | Loss: 0.1648
+Epoch: 24/30 | Loss: 0.1639
+Epoch: 27/30 | Loss: 0.1632
+Epoch: 30/30 | Loss: 0.1633
+Checkpoint Saved
+
+Test Loss: 0.1611
+Test Accuracy: 93.98%
+
