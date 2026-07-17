@@ -50,41 +50,50 @@ model.load_state_dict(
 model.eval()
 
 
-# Get user input
-latitude = float(input("Enter Latitude : "))
-longitude = float(input("Enter Longitude: "))
+while True:
+    # Get user input
+    latitude = float(input("Enter Latitude : "))
+    longitude = float(input("Enter Longitude: "))
 
 
-# Prepare input
-coordinates = pd.DataFrame(
-    [[latitude, longitude]],
-    columns=["latitude", "longitude"]
-)
+    # Prepare input
+    coordinates = pd.DataFrame(
+        [[latitude, longitude]],
+        columns=["latitude", "longitude"]
+    )
 
-coordinates = scaler.transform(coordinates)
+    coordinates = scaler.transform(coordinates)
 
-coordinates = torch.tensor(
-    coordinates,
-    dtype=torch.float32,
-    device=device
-)
-
-
-# Predict
-with torch.no_grad():
-
-    logits = model(coordinates)
-
-    probabilities = torch.softmax(logits, dim=1)
-
-    confidence, prediction = torch.max(probabilities, dim=1)
+    coordinates = torch.tensor(
+        coordinates,
+        dtype=torch.float32,
+        device=device
+    )
 
 
-predicted_country = label_encoder.inverse_transform(
-    prediction.cpu().numpy()
-)[0]
+    # Predict
+    with torch.no_grad():
+
+        logits = model(coordinates)
+
+        probabilities = torch.softmax(logits, dim=1)
+
+        confidence, prediction = torch.max(probabilities, dim=1)
 
 
-print("\nPrediction")
-print(f"Country    : {predicted_country}")
-print(f"Confidence : {confidence.item() * 100:.2f}%")
+    predicted_country = label_encoder.inverse_transform(
+        prediction.cpu().numpy()
+    )[0]
+
+
+    print("\nPrediction")
+    print(f"Country    : {predicted_country}")
+    print(f"Confidence : {confidence.item() * 100:.2f}%")
+
+    choice=input("want to predict more Y/N ?  \n").strip().lower()
+
+    if choice== "n":
+        break
+    elif choice != "y" or choice != "n" :
+        print("Type y or n")
+        
