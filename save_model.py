@@ -4,7 +4,7 @@ import joblib
 
 from CountryClassifierTrain import *
 
-checkpoint_path = "country_classifier_checkpoint.pth"
+checkpoint_path = "saved_models/country_classifier_checkpoint.pth"
 
 if os.path.exists(checkpoint_path):
 
@@ -17,17 +17,17 @@ if os.path.exists(checkpoint_path):
 
     torch.save(
         model.state_dict(),
-        "country_classifier_model.pth"
+        "saved_models/country_classifier_model.pth"
     )
 
     joblib.dump(
         preprocessor.scaler,
-        "scaler.pkl"
+        "saved_models/scaler.pkl"
     )
 
     joblib.dump(
         preprocessor.encoder,
-        "label_encoder.pkl"
+        "saved_models/label_encoder.pkl"
     )
 
     print("\nModel exported successfully!")
