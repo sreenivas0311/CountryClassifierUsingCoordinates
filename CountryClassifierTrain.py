@@ -177,7 +177,7 @@ def train_model(model, train_loader, criterion, optimizer, epochs):
     torch.save({
         "model_state_dict": model.state_dict(),
         "optimizer_state_dict": optimizer.state_dict(),
-    }, "country_classifier_checkpoint.pth")
+    },"saved_models/country_classifier_checkpoint.pth")
 
     
     with open("training_log.txt", "a") as file:
