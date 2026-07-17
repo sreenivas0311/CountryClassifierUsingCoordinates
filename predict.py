@@ -92,7 +92,7 @@ while True:
 
     choice=input("want to predict more Y/N ?  \n").strip().lower()
 
-    if choice== "n":
+    if choice == "n":
         break
     elif choice != "y" or choice != "n" :
         print("Type y or n")
