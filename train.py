@@ -1,7 +1,7 @@
 
 from CountryClassifierTrain import *
 
-checkpoint_path = "country_classifier_checkpoint.pth"
+checkpoint_path = "saved_models/country_classifier_checkpoint.pth"
 
 if os.path.exists(checkpoint_path):
 
